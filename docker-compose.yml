@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  node:
+    build: .
+    container_name: node
+    image: node
+    restart: always
+    tty: true
